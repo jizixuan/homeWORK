@@ -1,0 +1,100 @@
+/*
+* @Author: jizix
+* @Date:   2019-12-09 13:23:44
+* @Last Modified by:   jizix
+* @Last Modified time: 2019-12-12 12:46:09
+*/
+
+*{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style:none;
+}
+#top{
+	width: 1600px;
+	height: 20px;
+	background: url('a15.png') no-repeat 132px center;
+	position: relative;
+	overflow: hidden;
+	background-color: #ccc;
+}
+#lit{
+	margin-left: 200px;
+	width: 1300px;
+	overflow: hidden;
+}
+#tips{
+	display: inline;
+	margin-left: 1000px;
+	color: red;
+	font-size: 15px;
+}
+.tips{
+	font-size:0.8em;
+	height: 20px;
+	background: url('a15.png') no-repeat 132px center;
+	background-color: #cccccc;
+	padding-left: 980px;
+	color:red ;
+}
+.box{
+	height: 380px;
+	width: 1200px;
+	border: 0.1px solid red;
+	margin: 20px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 60px;
+	height: 80px;
+	text-align: center;
+	cursor: pointer;
+	color:   ;
+	top: 175px;
+	line-height: 80px;
+	background: rgb(255, 0, 0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left:0px;
+}
+#right{
+	right:0px;
+}
+.nav{
+	position: absolute;
+	left: 510px;
+	bottom: 8px;
+}
+.nav>li{
+	font-size: 0.75em;
+	line-height: -2px;
+	text-align: center;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #cccccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: #fc160c;
+	color: #ccc;
+}
